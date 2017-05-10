@@ -1,4 +1,10 @@
 def find_missing(array_1, array_2):
+    """Compares two lists passed to it as arguments,
+    and return the number which is not common to them.
+    :param array_1:
+    :param array_2:
+    :return: number
+    """
     if len(array_1) is 0 and len(array_2) is 0:
         return 0
     if len(array_1) > len(array_2):
