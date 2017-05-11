@@ -124,6 +124,8 @@ section p, section ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 footer {
